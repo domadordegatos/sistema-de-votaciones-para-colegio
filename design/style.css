@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+label {
+		margin-right: 10px;
+}
+.radio-button-label > input {
+	display: none;
+}
+.radio-button-label > img {
+	cursor: pointer;
+	border: 5px solid #ddd;
+	border-radius: 15%;
+	width: 33%;
+}
+
+.radio-button-label > input:checked + img {
+	border: 5px solid #2885bb;
+	border-radius: 15%;
+}
+.options{
+	text-align: center;
+	width: 100%;
+}
+.image_radio_button_control{
+	display: inline-flex;
+}
+.control{
+	display: grid;
+	padding: 0 3% 0 3%;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url(./images/fondo.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+img{
+	width: 30%;
+}
